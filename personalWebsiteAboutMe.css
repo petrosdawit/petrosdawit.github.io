@@ -1,0 +1,10 @@
+.about-me {
+	background: url("images/backgroundProject.jpg") no-repeat center center;
+  	background-attachment: fixed;
+  	margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.about-me-text{
+	color: #667;
+}
