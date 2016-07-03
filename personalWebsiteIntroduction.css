@@ -1,0 +1,83 @@
+.introduction {
+	background: url("images/backgroundIntroJumbotron.jpg") no-repeat center center;	
+  	background-width: 100%;
+  	background-attachment: fixed;
+  	margin-top: 0px;
+    margin-bottom: 0px;
+    height: 650px;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    text-align: center;
+}
+
+.intro-text > a {
+	color: white;
+	text-decoration: none;
+}
+
+.intro-text> a:hover {
+  	color: #ffadaf;
+  	text-decoration: none;
+}
+
+.intro-text {
+	color: white;
+	padding-top: 40px;
+}
+
+.img-circle {
+   padding: 1px;
+   border: 2px solid #3cbae7;
+   background-color: #fbe4e4;
+}
+
+.accordion > a {
+	color: white;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+.accordion > a:hover {
+  	color: #ffadaf;
+  	text-decoration: none;
+}
+
+@media (max-width: 1000px){
+	.intro-text{
+		padding-top: 38px;
+	}
+	.introduction {
+		height: 690px;
+	}
+}
+
+@media (max-width: 767px){
+	.introduction {
+		height: 720px;
+	}
+	.accordion {
+		display: none;
+	}
+}
+
+@media (max-width: 500px){
+	.introduction {
+		height: 745px;
+	}
+}
+
+@media (max-width: 450px){
+	.jumbotron {
+		height: 795px;
+	}
+}
+
+@media (min-width: 767px){
+	.jumbotron > a > i{
+		display: none;
+	}
+	.img {
+		padding-top: 10px;
+	}
+}
+
+
