@@ -8,6 +8,6 @@ $formcontent=" From: $name \n Phone: $phone \n Call Back: $call \n Message: $mes
 $recipient = "petros_dawit@brown.edu";
 $subject = "New Message From Personal Website Contact Form";
 $mailheader = "From: $email \r\n";
-mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
+mail($recipient, $subject, $formcontent, $mailheader)
 echo "Thank You!";
 ?>
