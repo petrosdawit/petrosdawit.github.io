@@ -78,7 +78,7 @@
 					<li><a href="#AboutMe"> About Me</a></li>
 					<li><a href="#Projects"> Projects</a></li>
 					<li><a href="#Experience"> Experience</a></li>
-					<li><a href="#Contact"> Contact</a></li>
+					<!-- <li><a href="#Contact"> Contact</a></li> -->
 					<li><a href="petrosDawitResume.pdf"> Resume </a></li>
 				</ul>
 				<div class="navbar-text pull-right">
@@ -96,9 +96,9 @@
 		<div class="container text-center intro-text" id="">
 			<h2> Hi, My name is Petros Dawit! </h2>
 			<p> <h3> I'm a rising junior pursuing a ScB in computer science at Brown University. <br>
-			I have a strong passion for technology and building things. This website was built entirely by me with HTML, CSS, Bootstrap, Javascript and PHP.
+			I have a strong passion for technology and building things. This website was built entirely by me with HTML, CSS, Bootstrap and Javascript.
 			</h3> </p>
-			<img src="images/headshot.jpg" class="img-circle img-responsive center-block" width="236" height="300" /> <br>
+			<img src="images/headshot.jpg" class="img-circle img-responsive center-block" width="236" height="300"/> <br>
 			<a href="mailto:petros_dawit@brown.edu"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
     		<a href="https://www.linkedin.com/in/petros-dawit-b46284b5"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
    			<a href="https://github.com/petrosdawit"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a> 
@@ -120,7 +120,7 @@
 
 				<li> <h3> I currently am interning at <a href="http://www.goodworld.me">GoodWorld</a>, which is a tech startup in D.C. that is trying to revolutionize the way people give to charities and causes they care about.<br> </h3> </li>
 
-				<li> <h3> Things I like: Computer Science, visiting places, soccer, foodie, giving back, music and art! </h3> </li>
+				<li> <h3> Things I like: computer science, design, visiting places, soccer, food, giving back, music and art! </h3> </li>
 			</div><!-- End Container -->
 		</section>
 	</div> <!-- End About Me Jumbotron --> 	
@@ -208,7 +208,7 @@
 						<div class ="carousel-caption carousel-text">
 							<div class="boxed">
 								<h3> ECDC Enterprise Development Group, Microloan Lenders</h3>
-								<p> I worked here for my first internship! During my freshman summer, I worked closely with the portfolio manager at ECDC Enterprise Development Group for two months. I organized data in the last five years into a data bank using Microsoft Excel and developed a data entry template linked to the master database for instant update. I would also review legal documentation regarding loans. </p>
+								<p> I worked here for my first internship! During my freshman summer, I worked closely with the portfolio manager at ECDC Enterprise Development Group, who are MicroLenders for two months. I Organized data in the last five years into a data bank using Microsoft Excel and developed a data entry template linked to the master database for instant update. I would also review legal documentation regarding loans. </p>
 							</div>
 						</div>
 					</div>
@@ -228,13 +228,13 @@
 	<br> <hr style="height:1px;border:none;color:#111;background-color:#111;" id="Contact">
 	<!-- End Line Break -->	
 	
-	<!-- Contact --> 
+	<!-- Contact 
 	<div class="container">
 		<div class="page-header contact-text">
 			<h2> Contact <small> Feel free to contact me! </small> </h2>
 		</div>	
-		<!-- Form -->
-		<form action="index.php" method="POST">
+		<!-- Form 
+		<form action="index.php" method="POST" name="contactForm">
 			<p>Name</p> <input type="text" name="name" placeholder="Your name">
 			<p> </p>
 			<p>Email</p> <input type="text" name="email" placeholder="Your email address">
@@ -247,8 +247,9 @@
 
 			<p>Message</p><textarea style="width:100%" name="message" placeholder="Write something to me..." rows="10"></textarea><br />
 			<p> </p>
-			<input type="submit" value="Send"><input type="reset" value="Clear">
-		</form> <!-- End Form --> 
+			<input type="submit" name="submit" id="submit" value="Send">
+			<input type="reset" value="Clear">
+		</form> <!-- End Form 
 	</div> 	<!-- End Contact -->
 
 	<!-- Footer -->
