@@ -1,0 +1,297 @@
+/* body */
+body {
+  background: url("images/backgroundProject.jpg") no-repeat center center;
+  background-blend-mode: lighten;
+  background-attachment: fixed;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* Navbar CSS */
+
+/* navbar */
+.navbar-default {
+  background-image: none;
+  background-color: #3cbae7;
+  border-color: #3cbae7;
+}
+/* title */
+.navbar-default .navbar-brand {
+  color: #fbe4e4;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ffadaf;
+}
+.navbar-default .navbar-text {
+  color: #fbe4e4;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+  color: #fbe4e4;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffadaf;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffadaf;
+  background-color: #3cbae7;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ffadaf;
+  background-color: #3cbae7;
+}
+.navbar-default .navbar-toggle {
+  border-color: #3cbae7;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #3cbae7;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fbe4e4;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #fbe4e4;
+}
+.navbar-default .navbar-link {
+  color: #fbe4e4;
+}
+.navbar-default .navbar-link:hover {
+  color: #ffadaf;
+}
+/* Social Icons */
+.navbar-text > a {
+  color: inherit;
+  text-decoration: none;
+}
+.navbar-text > a:hover {
+  color: #ffadaf;
+  text-decoration: none;
+}
+
+#nav-collapse li a:hover { 
+    color: #ea4245;
+}
+#nav-collapse a:hover { 
+    background-color: #3cbae7;
+}
+
+#nav-collapse  li.active { 
+   color:green;
+    background-color: #3cbae7;
+}
+#nav-collapse  li.active a {
+    color: #ea4245;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #fbe4e4;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffadaf;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffadaf;
+    background-color: #3cbae7;
+  }
+  .navbar-text{
+    display:none;
+  }
+}
+
+/* Footer CSS*/
+
+/* Text */
+.text-center > em {
+  color: #3cbae7;
+}
+/* Social Icons */
+#footer-end > a {
+  color: #3cbae7;
+  text-decoration: none;
+}
+#footer-end > a:hover {
+  color: #ffadaf;
+  text-decoration: none;
+}
+
+@media (min-width: 767px){
+  .text-center > a {
+    display:none;
+  }
+}
+
+@media (max-width: 767px){
+  .text-center > em {
+    color: #2b85a5;
+  }
+}
+
+/* Introduction CSS*/
+
+.introduction {
+  background: url("images/backgroundIntroJumbotron.jpg") no-repeat center center; 
+    background-width: 100%;
+    background-attachment: fixed;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 650px;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    text-align: center;
+}
+
+.intro-text > a {
+  color: white;
+  text-decoration: none;
+}
+
+.intro-text> a:hover {
+    color: #ffadaf;
+    text-decoration: none;
+}
+
+.intro-text {
+  color: white;
+  padding-top: 40px;
+}
+
+.img-circle {
+   padding: 1px;
+   border: 2px solid #3cbae7;
+   background-color: #fbe4e4;
+}
+
+.accordion > a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.accordion > a:hover {
+    color: #ffadaf;
+    text-decoration: none;
+}
+
+@media (max-width: 1000px){
+  .intro-text{
+    padding-top: 38px;
+  }
+  .introduction {
+    height: 690px;
+  }
+}
+
+@media (max-width: 767px){
+  .introduction {
+    height: 720px;
+  }
+  .accordion {
+    display: none;
+  }
+}
+
+@media (max-width: 500px){
+  .introduction {
+    height: 745px;
+  }
+}
+
+@media (max-width: 450px){
+  .jumbotron {
+    height: 795px;
+  }
+}
+
+@media (min-width: 767px){
+  .jumbotron > a > i{
+    display: none;
+  }
+  .img {
+    padding-top: 10px;
+  }
+}
+
+
+/* About Me CSS */
+.about-me {
+  background: url("images/backgroundProject.jpg") no-repeat center center;
+    background-attachment: fixed;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.about-me-text{
+  color: #667;
+}
+
+/* Projects CSS */
+
+.projects-text{
+  color: #667;
+}
+
+.projectImgGraph{
+  width: 301px;
+  height: 262px;
+}
+
+.projectImgSeamcarve {
+  width: 316px;
+  height: 233px;
+}
+
+.projectImgSketchy {
+  width: 317px;
+  height: 256px;
+}
+
+.projectImgTetris {
+  width:252px;
+  height: 443px;
+}
+
+.projectImgDoodlejump {
+  width: 216px;
+  height: 445px;
+}
+
+/* Experience CSS */
+
+.carousel-inner {
+  background-color: #fbe4e4
+}
+
+.experience-text{
+  color: #667;
+}
+.carousel-text{
+  color: #667;  
+}
+.boxed{
+  background-color: #fbe4e4;
+    border-radius: 25px;
+    opacity: 0.7  
+}
+
+.boxed:hover{
+  opacity: 1 
+}
+
+
+/* Contact CSS */
+
+.contact-text{
+  color: #667;
+}
+
